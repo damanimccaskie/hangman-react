@@ -8,7 +8,7 @@ import {showNotification as show} from './helpers/helpers';
 import Popup from './components/Popup';
 import Notification from './components/Notification';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['application', 'programming', 'interface', 'wizard', 'dance', 'example', 'barbados', 'texas', 'united', 'code', 'app', 'monkey', 'clock', 'time', 'or'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 let playable = true;
 const correctLetters = [];
