@@ -8,7 +8,17 @@ import {showNotification as show} from './helpers/helpers';
 import Popup from './components/Popup';
 import Notification from './components/Notification';
 
+
+let fs = require('fs');
+const readFileLines = filename => 
+  fs.readFileSync(filename)
+  .toString('UTF8')
+  .split('\n');
+
+// let words = readFileLines('./words.txt')
+
 const words = ['application', 'programming', 'interface', 'wizard', 'dance', 'example', 'barbados', 'texas', 'united', 'code', 'app', 'monkey', 'clock', 'time', 'or'];
+
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 let playable = true;
 const correctLetters = [];
