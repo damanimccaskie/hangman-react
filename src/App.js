@@ -9,11 +9,11 @@ import Popup from './components/Popup';
 import Notification from './components/Notification';
 
 
-let fs = require('fs');
-const readFileLines = filename => 
-  fs.readFileSync(filename)
-  .toString('UTF8')
-  .split('\n');
+// let fs = require('fs');
+// const readFileLines = filename => 
+//   fs.readFileSync(filename)
+//   .toString('UTF8')
+//   .split('\n');
 
 // let words = readFileLines('./words.txt')
 
